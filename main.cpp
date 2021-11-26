@@ -10,6 +10,8 @@
 #include <iomanip>
 #include "fonction.h"
 
+using namespace std;
+
 //Declaration des constantes
 const double TAUX_TAXE = 0.15;
 const int DUREE_MIN = 1;
@@ -21,9 +23,7 @@ const char TYPE_SEJOUR2 = 'T';
 const int AGE_MIN = 1;
 const int AGE_MAX = 12;
 
-using namespace std;
-
-//Prototypes des fonctions
+//Prototypes des fonctions qu'on as utiliser
 int LireValiderEntierEntre(int min1, int max1);
 int LireValider2Char(char typeSejour1, char typeSejour2);
 int LireValiderEntierEntref(int min2, int max2);
@@ -51,10 +51,10 @@ int main()
     double rabaisTotalAccorde = 0.0;
     double rabaisTotal = 0.0;
     double sousTotal = 0.0;
-    double grandTotal = 0.0;        // grand total des  factures generees la journee.
-    double grandTotalFacture = 0.0; // Le grand total d'une facture.
+    double grandTotal = 0.0;
+    double grandTotalFacture = 0.0;
 
-    //ENTREES DE DONNEES
+    //Entrees des donnees dans le programme
     do
     {
         system("cls");

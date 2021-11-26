@@ -1,7 +1,15 @@
+/*
+  Titre      : la focntion du code
+  Auteur     : Duvalier Tsagmo
+  Date       : 25/11/2021
+  Description: effectue les instructions programme
+  Version    : 0.0.1
+*/
 
 #include <iostream>
 #include <iomanip>
 
+//Declaration des fonctions
 int LireValiderEntierEntre(int min1, int max1)
 {
     int dureeSejour = 0;
@@ -69,6 +77,7 @@ int LireValiderEntierEntreg(int min, int max)
     return agEnf;
 }
 
+//fonction pour retourRabaitEnfant
 double retourRabaisEnfant(int ageEnfant)
 {
 
